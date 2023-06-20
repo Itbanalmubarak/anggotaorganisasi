@@ -70,7 +70,7 @@
                                             <th scope="col">NIM</th>
                                             <th scope="col">Nama Mahasiswa</th>
                                             <th scope="col">Jabatan</th>
-                                            <th scope="col">Jumlah Mahasiswa</th>
+                                            <th scope="col">Jumlah Organisasi</th>
                                             <th scope="col">Action</th>
                                         </tr>
                                     </thead>
@@ -82,8 +82,8 @@
 
                             <div class="col-xs-12 col-sm-12 col-md-12">
                                 <div class="form-group">
-                                    <strong>Jumlah Mahasiswa:</strong>
-                                    <input type="text" name="jml" class="form-control" placeholder="Jumlah Mahasiswa">
+                                    <strong>Jumlah Organisasi:</strong>
+                                    <input type="text" name="jml" class="form-control" placeholder="Jumlah Organisasi">
                                     @error('jml')
                                         <div class="alert alert-danger mt-1 mb-1">{{ $message }}</div>
                                     @enderror
